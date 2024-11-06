@@ -1,5 +1,6 @@
-lightning
+--extra-index-url https://download.pytorch.org/whl/cpu
 torch
+lightning
 transformers
 datasets
 evaluate

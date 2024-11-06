@@ -1,5 +1,5 @@
-# Use the official PyTorch image with CUDA 12.4 and cuDNN 9
-FROM pytorch/pytorch:2.5.1-cuda12.4-cudnn9-runtime
+# Use a lightweight Python base image
+FROM python:3.10-slim
 
 # Set the working directory
 WORKDIR /app

@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Logs
+*.log
+
+# Others
+.git/
+node_modules/
