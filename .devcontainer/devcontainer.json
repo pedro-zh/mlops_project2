@@ -1,7 +1,7 @@
 {
   "name": "mlops_project2",
   "build": {
-    "dockerfile": "Dockerfile"
+    "dockerfile": "../dockerfile"
   },
   "workspaceFolder": "/app",
   "customizations": {
