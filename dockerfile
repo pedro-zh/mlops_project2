@@ -1,6 +1,11 @@
 # Use a lightweight Python base image
 FROM python:3.10-slim
 
+# Install Docker CLI
+RUN apt-get update && \
+    apt-get install -y docker.io && \
+    rm -rf /var/lib/apt/lists/*
+
 # Set the working directory
 WORKDIR /app
 
@@ -15,3 +20,4 @@ COPY . .
 
 # Run the training script
 CMD ["python", "main.py", "--checkpoint_dir", "models", "--lr", "2e-05", "--weight_decay", "0.005", "--warmup_steps", "250"]
+
