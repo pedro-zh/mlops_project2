@@ -30,7 +30,7 @@ mlops_project2/
 ## Prerequisites
 - Docker installed on your local machine
 - GitHub account
-- Access to GitHub Codespaces (optional but recommended)
+- Access to GitHub Codespaces (optional)
 
 ## Setup Instructions
 
