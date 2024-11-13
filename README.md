@@ -21,6 +21,7 @@ mlops_project2/
 ├── model.py              # Contains the model architecture (GLUETransformer)
 ├── main.py               # Main script to run the training with specified hyperparameters
 ├── dockerfile            # Dockerfile to build the training image
+├── .dockerignore         # Specifies files and directories to be ignored by Docker
 ├── requirements.txt      # Python dependencies for the project
 ├── .devcontainer/        # GitHub Codespaces configuration folder
 │   └── devcontainer.json
